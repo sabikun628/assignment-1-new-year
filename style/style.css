@@ -60,3 +60,62 @@ font-size: 20px;
 font-weight: 600;
 margin-bottom: 10px;
 }
+
+    
+
+/* .party-img1{
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin: 300px ;
+    margin-top: 50px;
+    margin-bottom: 100px;
+} */
+
+.party-container{
+    background-image: url(../assets/Vectorrr.png);
+    border: none;
+    border-radius: 20px;
+    margin: 100px 300px ;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.party-text{
+    display: flex;
+    padding: 100px 100px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.party-heading{
+    color:white;
+font-size: 55px;
+font-weight: 900;
+width: 400px;
+margin-bottom: 20px;
+}
+.party-description{
+    color:white;
+font-size: 15px;
+width: 500px;
+margin-bottom: 50px;
+}
+.party-btn{
+    background: none;
+    border: 1px solid  rgb(205, 18, 80);;
+    color: white;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+padding: 15px 35px;
+border-radius: 5px;
+
+
+
+}
+.party-btn:hover{
+    background-color: rgb(205, 18, 80);
+}
