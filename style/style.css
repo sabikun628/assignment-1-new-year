@@ -119,3 +119,46 @@ border-radius: 5px;
 .party-btn:hover{
     background-color: rgb(205, 18, 80);
 }
+
+.place{
+ background-color:rgba(255, 0, 0, 0.10) ;
+height: 450px;
+margin: 100px 300px ;
+margin-bottom: 100px;
+border-radius: 10px;
+text-align: center;
+padding-top: 100px;
+}
+
+
+.place-address{
+    color: black;
+    font-size: 28px;
+    font-weight: 900px;
+ margin-bottom: 60px;
+}
+
+
+.addres-heading{
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.contact-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contact-btn:hover{
+    background-color: rgb(18, 216, 77);
+}
