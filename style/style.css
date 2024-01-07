@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+
+.banner-img {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin: 300px ;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.563);
+}
+
+.banner-text {
+    position: absolute;
+    color: rgb(209, 14, 14);
+    top: 290px;
+    left: 40%;
+   
+}
+
+.banner-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    width: 530px;
+
+}
+
+.banner-description {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.offer-deals{
+    text-align: center;
+
+}
+.hot-deal-heading1{
+    color: red;
+text-align: center;
+font-size: 70px;
+font-weight: 800;
+margin-bottom: 35px;
+}
+.hot-deal-heading2{
+    color:black;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+.hot-deal-pescription{
+    color: red;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 10px;
+}
