@@ -104,7 +104,7 @@ font-size: 15px;
 font-weight: 600;
 padding: 15px 35px;
 border-radius: 5px;
-
+cursor: pointer;
 
 
 }
@@ -151,6 +151,8 @@ padding-top: 100px;
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+
 }
 .contact-btn:hover{
     background-color: rgb(18, 216, 77);
@@ -283,9 +285,15 @@ padding-bottom: 0;
     width:800px ;
 }
 .gift-image{
-    margin: 0 auto;
+    margin: 0 auto; 
+      cursor: pointer;
+      display: flex;
+      gap: 25px ;
+      margin-bottom: 25px;
+     
    
 }
+
 .subscrib-section{
     margin: 100px 300px ;
     text-align: center;
@@ -325,11 +333,62 @@ padding-bottom: 0;
     font-size: 15px;
     font-weight: 500;
     margin: 0 auto;
+    cursor: pointer;
 
 }
+.Subscribe-btn:hover{
+    background-color:darkred ;
+}
+.contact-section{
+background-color: black;
+height: 700px;
+
+
+}
+.conttact-address{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding:100px 300px;
+    text-align: center;
+    padding: 100px;
+  
    
+}
+.address{
+    width: 350px;
+    font-size: 25px;
+}
+.contract-number{
+    width: 350px;
+    font-size: 25px;  
 
-
+}
+   hr{
+    width: 90%;
+margin: 0 auto;
+   }
+   .contract-image{
+    padding: 50px;
+    text-align: center;
+   padding-left: 25px;
+   display: flex;
+   gap: 25px;
+   align-items: center;
+   margin-left: 40%;
+   }
+.Unsubscribe-btn{
+    color: white;
+    background-color: #F00;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Unsubscribe-btn:hover{
+   background-color:gray ;
+}
 
 
 
