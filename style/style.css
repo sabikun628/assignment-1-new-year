@@ -301,6 +301,7 @@ padding-bottom: 0;
     background-color:rgba(255, 0, 0, 0.10);
     height: 600px;
  padding-top: 100px;
+ border-radius: 20px;
 }
 
 .Subscribe-heading{
@@ -322,7 +323,13 @@ padding-bottom: 0;
     border: none;
     border-radius:50px 0px 0px 50px;
     padding: 20px ;
+    
 }
+/* .subscrib-section-button{
+    margin: 0 auto;
+gap: 30px;} */
+
+
 .Subscribe-btn{
     width: 150px;
     border: none;
