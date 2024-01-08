@@ -6,7 +6,7 @@
 .banner-text {
  
     padding: 130px;
-    background-image: url("../assets/Banner\ Image.png");
+    background-image:url("../assets/Banner\ Image.png");
    max-width: 1020px;
    margin: 0 auto;
    border-radius: 20px;
@@ -63,14 +63,14 @@ margin-bottom: 10px;
     
 
 .party-container{
-    background-image: url(../assets/Vectorrr.png);
+    background-image:url(../assets/Vectorrr.png),linear-gradient(to right, rgba(0, 0, 0, 0.882),rgba(0,0,0,0));
     border: none;
     border-radius: 20px;
     margin: 100px 300px ;
     margin-bottom: 100px;
     justify-content: space-between;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-blend-mode: overlay;
    
 }
@@ -213,6 +213,7 @@ width: 400px;
     background-repeat: no-repeat;
     background-position: bottom;
     border-radius: 15px;
+    padding-top: 100px;
 }
 .holiday-offer-text{
     text-align: center;
@@ -254,6 +255,7 @@ font-weight: 900;
     left: 53%;
    padding-top: 70px;
 }
+
 .img2{
 padding-left: 75px;
 margin: 0 auto;
@@ -262,6 +264,7 @@ padding-bottom: 0;
 }
 .gift-section{
     margin: 120px 300px ;
+    padding-top: 100px;
 
 }
 .gift-heading1{
@@ -276,6 +279,7 @@ padding-bottom: 0;
     font-weight: 54px;
     font-weight: 900;
     margin-bottom: 25px;
+    font-size: 55px;
 }
 
 .gift-description{
@@ -369,6 +373,7 @@ height: 700px;
 .contract-number{
     width: 350px;
     font-size: 25px;  
+ 
 
 }
    hr{
@@ -396,7 +401,6 @@ margin: 0 auto;
 .Unsubscribe-btn:hover{
    background-color:gray ;
 }
-
 
 
 
