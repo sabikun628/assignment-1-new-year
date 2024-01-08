@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
 }
 
 
 .banner-text {
- 
+
     padding: 130px;
-    background-image:url("../assets/Banner\ Image.png"),linear-gradient(to bottom,rgba(0, 0, 0, 0.953),rgba(0, 0, 0, 0.057));
-   max-width: 1020px;
-   margin: 0 auto;
-   border-radius: 20px;
-   background-blend-mode: overlay;
-   background-size: cover;
-   background-repeat: no-repeat;
-   margin-top: 50px;
-   height: 320px;
-   
-   
-  
-  
-  
+    background-image: url("../assets/Banner\ Image.png"), linear-gradient(to bottom, rgba(0, 0, 0, 0.953), rgba(0, 0, 0, 0.057));
+    max-width: 1020px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 320px;
+
+
+
+
+
 }
 
 .banner-heading {
@@ -38,105 +38,114 @@
     font-size: 35px;
     margin-bottom: 5px;
 }
-.offer-deals{
+
+.offer-deals {
     text-align: center;
     margin-top: 120px;
 
 }
-.hot-deal-heading1{
+
+.hot-deal-heading1 {
     color: red;
-text-align: center;
-font-size: 70px;
-font-weight: 800;
-margin-bottom: 35px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 35px;
 }
-.hot-deal-heading2{
-    color:black;
+
+.hot-deal-heading2 {
+    color: black;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
-    
+
 }
-.hot-deal-pescription{
+
+.hot-deal-pescription {
     color: red;
-font-size: 20px;
-font-weight: 600;
-margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-    
 
-.party-container{
-    background-image:url(../assets/Vectorrr.png),linear-gradient(to right, rgba(0, 0, 0, 0.882),rgba(0,0,0,0));
+
+.party-container {
+    background-image: url(../assets/Vectorrr.png), linear-gradient(to right, rgba(0, 0, 0, 0.882), rgba(0, 0, 0, 0));
     border: none;
     border-radius: 20px;
-    margin: 100px 300px ;
+    margin: 100px 300px;
     margin-bottom: 100px;
     justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-   
+
 }
 
 
-.party-text{
+.party-text {
     display: flex;
-    padding: 100px 100px ;
+    padding: 100px 100px;
     align-items: center;
     justify-content: space-between;
 }
-.party-heading{
-    color:white;
-font-size: 55px;
-font-weight: 900;
-width: 400px;
-margin-bottom: 20px;
-}
-.party-description{
-    color:white;
-font-size: 15px;
-width: 500px;
-margin-bottom: 50px;
-}
-.party-btn{
-    background: none;
-    border: 1px solid  rgb(205, 18, 80);;
+
+.party-heading {
     color: white;
-text-align: center;
-font-size: 15px;
-font-weight: 600;
-padding: 15px 35px;
-border-radius: 5px;
-cursor: pointer;
+    font-size: 55px;
+    font-weight: 900;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.party-description {
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.party-btn {
+    background: none;
+    border: 1px solid rgb(205, 18, 80);
+    ;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 5px;
+    cursor: pointer;
 
 
 }
-.party-btn:hover{
+
+.party-btn:hover {
     background-color: rgb(205, 18, 80);
 }
 
-.place{
-    background-image: linear-gradient(rgba(255, 0, 0, 0.10),white);
+.place {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.10), white);
 
-height: 450px;
-margin: 100px 300px ;
-margin-bottom: 100px;
-border-radius: 10px;
-text-align: center;
-padding-top: 100px;
+    height: 450px;
+    margin: 100px 300px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 
-.place-address{
+.place-address {
     color: black;
     font-size: 28px;
     font-weight: 900px;
- margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 
-.addres-heading{
+.addres-heading {
     color: #F00;
 
     text-align: center;
@@ -144,10 +153,12 @@ padding-top: 100px;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px;
+    /* 175% */
     text-transform: capitalize;
 }
-.contact-btn{
+
+.contact-btn {
     font-size: 20px;
     font-weight: 600;
     padding: 18px 35px;
@@ -158,60 +169,68 @@ padding-top: 100px;
     cursor: pointer;
 
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: rgb(18, 216, 77);
 }
-.upcomming-offer{
+
+.upcomming-offer {
     display: flex;
-    margin: 100px 300px ;
+    margin: 100px 300px;
     justify-content: space-between;
     margin-bottom: 100px;
 }
-.upcomming-offer-content{
+
+.upcomming-offer-content {
     padding-top: 100px;
     width: 300px;
 }
-.new-offer-heading1{
-color: red;
-font-size: 25px;
-font-weight: 600;
-margin-bottom: 10px;
+
+.new-offer-heading1 {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.new-offer-heading2{
-color: black;
-font-size: 50px;
-font-weight: 800;
-margin-bottom: 10px;
+.new-offer-heading2 {
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
-.new-offer-description{
+
+.new-offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
-width: 400px;
+    width: 400px;
 
 }
-.new-offer-medle-image{
+
+.new-offer-medle-image {
     padding: 30px;
     border: 10px solid red;
     border-radius: 50%;
     width: 300px;
 }
-.new-offer-year-heading{
+
+.new-offer-year-heading {
     color: red;
     font-size: 50px;
     padding-top: 100px;
     font-weight: 800;
     margin-bottom: 10px;
 }
-.new-offer-description2{
+
+.new-offer-description2 {
     margin-bottom: 25px;
     color: rgba(7, 2, 17, 0.60);
     width: 300px;
     font-size: 20px;
 }
 
-.holiday{
-    margin: 100px 300px ;
+.holiday {
+    margin: 100px 300px;
     margin-top: 100px;
     background-image: url("../assets/Rectangle 2.png");
     background-repeat: no-repeat;
@@ -219,66 +238,75 @@ width: 400px;
     border-radius: 15px;
     padding-top: 100px;
 }
-.holiday-offer-text{
+
+.holiday-offer-text {
     text-align: center;
 
 
 }
-.holiday-off-heading1{
+
+.holiday-off-heading1 {
     color: black;
     font-size: 30px;
     font-weight: 600;
 }
-#holiday-color{
-color: red;
-font-size: 80px;
-font-weight: 900;
-}
-.holiday-offer-heading2{
+
+#holiday-color {
+    color: red;
     font-size: 80px;
-    font-weight: 900; 
-    color: black;  
+    font-weight: 900;
+}
+
+.holiday-offer-heading2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: black;
     margin-bottom: 20px;
 }
-.holiday-offer-description{
+
+.holiday-offer-description {
     margin: 0 auto;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     text-align: center;
-    width: 760px ;
+    width: 760px;
     margin-bottom: 100px;
-    
+
 }
-.holiday-offer-image{
+
+.holiday-offer-image {
     display: flex;
 }
-.meddle-image{
+
+.meddle-image {
     height: 100px;
     width: 100px;
     position: absolute;
     left: 53%;
-   padding-top: 70px;
+    padding-top: 70px;
 }
 
-.img2{
-padding-left: 75px;
-margin: 0 auto;
-border-radius: 20px;
-padding-bottom: 0;
+.img2 {
+    padding-left: 75px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-bottom: 0;
 }
-.gift-section{
-    margin: 120px 300px ;
+
+.gift-section {
+    margin: 120px 300px;
     padding-top: 100px;
 
 }
-.gift-heading1{
+
+.gift-heading1 {
     color: red;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 18px;
 }
 
-.gift-heading2{
+.gift-heading2 {
     color: black;
     font-weight: 54px;
     font-weight: 900;
@@ -286,118 +314,130 @@ padding-bottom: 0;
     font-size: 55px;
 }
 
-.gift-description{
+.gift-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     margin-bottom: 50px;
-    width:800px ;
-}
-.gift-image{
-    margin: 0 auto; 
-      cursor: pointer;
-      display: flex;
-      gap: 25px ;
-      margin-bottom: 25px;
-     
-   
+    width: 800px;
 }
 
-.subscrib-section{
-    margin: 100px 300px ;
+.gift-image {
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+
+
+}
+
+.subscrib-section {
+    margin: 100px 300px;
     text-align: center;
-    margin: 120px 300px ;
-    background-color:rgba(255, 0, 0, 0.10);
+    margin: 120px 300px;
+    background-color: rgba(255, 0, 0, 0.10);
     height: 600px;
- padding-top: 100px;
- border-radius: 20px;
+    padding-top: 100px;
+    border-radius: 20px;
 }
 
-.Subscribe-heading{
+.Subscribe-heading {
     padding-top: 40px;
     font-size: 50px;
     font-weight: 900;
     color: #000;
 }
-.Subscribe-description{
+
+.Subscribe-description {
     color: rgba(7, 2, 17, 0.60);
-    font-size:25px;
+    font-size: 25px;
     width: 800px;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.subscrib-input{
+
+.subscrib-input {
     width: 430px;
     border: none;
-    border-radius:50px 0px 0px 50px;
-    padding: 20px ;
-    
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+
 }
-/* .subscrib-section-button{
-    margin: 0 auto;
-gap: 30px;} */
+
+.subscrib-section-button {
+    display: flex;
+    justify-content: center;
+}
 
 
-.Subscribe-btn{
+.Subscribe-btn {
     width: 150px;
     border: none;
-    border-radius:0px 50px 50px 0px;
-    padding: 20px ;
+    border-radius: 0px 50px 50px 0px;
+    padding: 20px;
     background-color: red;
     color: white;
     font-size: 15px;
     font-weight: 500;
-    margin: 0 auto;
     cursor: pointer;
+}
+
+.Subscribe-btn:hover {
+    background-color: darkred;
+}
+
+.contact-section {
+    background-color: black;
+    height: 700px;
+
+
 
 }
-.Subscribe-btn:hover{
-    background-color:darkred ;
-}
-.contact-section{
-background-color: black;
-height: 700px;
 
-
-
+.contact-section-description {
+    margin: 100px 300px;
 }
-.contact-section-description{
-    margin: 100px 300px ;
-}
-.conttact-address{
+
+.conttact-address {
     display: flex;
     color: white;
     padding-top: 120px;
     padding-bottom: 50px;
     justify-content: space-between;
-     margin: 0 64px;
-  
-   
+    margin: 0 64px;
+
+
 }
-.address{
+
+.address {
     width: 350px;
     font-size: 25px;
 }
-.contract-number{
+
+.contract-number {
     width: 350px;
-    font-size: 25px;  
- 
+    font-size: 25px;
+
 
 }
-   hr{
+
+hr {
     width: 90%;
-margin: 0 auto;
-   }
-   .contract-image{
+    margin: 0 auto;
+}
+
+.contract-image {
     padding: 50px;
     text-align: center;
-   padding-left: 25px;
-   display: flex;
-   gap: 25px;
-   align-items: center;
-   margin-left: 40%;
-   }
-.Unsubscribe-btn{
+    padding-left: 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.Unsubscribe-btn {
     color: white;
     background-color: #F00;
     padding: 18px 40px;
@@ -406,10 +446,7 @@ margin: 0 auto;
     font-size: 20px;
     cursor: pointer;
 }
-.Unsubscribe-btn:hover{
-   background-color:gray ;
+
+.Unsubscribe-btn:hover {
+    background-color: gray;
 }
-
-
-
-
